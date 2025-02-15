@@ -1,6 +1,8 @@
 package pe.edu.senati.apkrunners.ui;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -40,5 +42,8 @@ public class Login extends Fragment {
         context = getContext();
         navController = Navigation.findNavController( view );
 
+        binding.tvTerminos.setOnClickListener( c ->
+                        startActivity( new Intent( Intent.ACTION_VIEW).setData( Uri.parse("https://facebook.com") ) )
+                );
     }
 }
