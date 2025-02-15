@@ -13,4 +13,6 @@
     <string name="entregas">Entregas</string>
     <string name="solicitudes">Solicitudes</string>
     <string name="ciudad">Ciudad</string>
+    <string name="logo_indrive">logo_indrive</string>
+    <string name="terminos_uso">Al unirte a nuestra aplicación, aceptas nuestros Términos de Uso y Política de privacidad</string>
 </resources>

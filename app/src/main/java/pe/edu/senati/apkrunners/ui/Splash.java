@@ -9,9 +9,12 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.concurrent.Delayed;
 
 import pe.edu.senati.apkrunners.R;
 import pe.edu.senati.apkrunners.databinding.FragmentSplashBinding;
@@ -40,5 +43,6 @@ public class Splash extends Fragment {
         context = getContext();
         navController = Navigation.findNavController( view );
 
+        new Handler().postDelayed( () -> navController.navigate( R.id.nav_login), 3000);
     }
 }
