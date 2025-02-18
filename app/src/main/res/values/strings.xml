@@ -15,4 +15,5 @@
     <string name="ciudad">Ciudad</string>
     <string name="logo_indrive">logo_indrive</string>
     <string name="terminos_uso">Al unirte a nuestra aplicación, aceptas nuestros Términos de Uso y Política de privacidad</string>
+    <string name="content_description">Volver</string>
 </resources>
